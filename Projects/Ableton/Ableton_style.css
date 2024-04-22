@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.main{
+    width: 100vw;
+}
+.container-first{
+    border: 2px solid black;
+    width: 83vw;
+    margin: -1px auto;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#heading{
+    font-size: 130px;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+
+}
+
+#sub-heading{
+    font-size: 33px;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.links{
+    display: flex;
+}
+
+.links span{
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 15px;
+}
+.links a {
+    font-size: 19px;
+    
+    color: black;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color: blue;
+}
+
+.second-container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 83vw;
+    margin: -1px auto;
+    
+
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 26rem;
+    margin: 10px 0px;
+    
+}
+.items span {
+    font-size: 30px;
+}
+
+.extra-links{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 20px;
+  
+}
+
+.extra-links a {
+    color: black;
+    font-size: 18px;
+}
+.extra-links a:hover{
+    color: blue;
+}
+
+.palete-container{
+    display: flex;
+    margin: 12px 20px;
+}
