@@ -22,6 +22,10 @@ header{
     margin:5px 5px;
     width: 687px;
     height: 63px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(0 0 0 / 76%);
 
     
 }
@@ -39,8 +43,9 @@ header{
 .navigation a{
     text-decoration: none;
     color: black;
-   
+    font-family:"Archivo", sans-serif;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .navigation a:hover{
@@ -58,8 +63,9 @@ header{
     margin: auto;
 }
 .item a{
-    font-family: "DM Serif Display", serif;
-    font-weight: 400px;
+    font-family:"Archivo", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 footer{
@@ -75,6 +81,9 @@ footer{
     margin: auto;
     padding-top: 4px;
     height: 120px;
+    font-family:"Archivo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 
 }
 
@@ -82,12 +91,18 @@ footer{
     text-decoration: none;
     color: white;
     padding: 8px 11px;
-    font-weight: bold;
-    font-size: 19px;  
+    font-weight: 600;
+    font-size: 16px;  
 }
 
 .footer-link p{
     font-size: 17px;
+}
+.footer-link div{
+    margin: 25px 0px;
+}
+.footer-nav-link{
+    margin-top: 15px;
 }
 .first-section{
     background-color: rgba(248, 231, 211, 0.916);
